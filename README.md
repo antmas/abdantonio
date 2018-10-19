@@ -1,6 +1,14 @@
 # abdantonio
 
-![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/280px-Flag_of_Italy.svg.png)                                                  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/280px-Flag_of_Lebanon.svg.png)
+
+<img align="left" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/280px-Flag_of_Italy.svg.png">
+<img align="right"  src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/280px-Flag_of_Lebanon.svg.png">
+
+
+
+#### antonio
+:+1:
+
 
 
 ```c
@@ -28,3 +36,5 @@ echo "   init  : $initDATE"
       #"   init  : Fri Oct 19 17:14:09 CEST 2018"
 printf "                      \e[32m%2.2d:%2.2d:%2.2d\e[39m\n" $H $M $R
 ```
+
+![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Flag_of_Italy.svg/280px-Flag_of_Italy.svg.png)                                                  ![](https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/280px-Flag_of_Lebanon.svg.png)
