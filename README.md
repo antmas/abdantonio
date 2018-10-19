@@ -11,3 +11,15 @@ int main()
   return 0;
 }
 ```
+
+```bash
+initDATE=$(date)
+sleep 3
+finDATE=$(date)
+d1=$(date -d "`echo $initDATE`" +%s)
+d2=$(date -d "`echo $finDATE`" +%s)
+S=`(echo $d2-$d1) | bc`
+H=`echo "$S/(60*60)" | bc`;R=`echo "($S-3600*$H)" | bc`;M=`echo "$R/60" | bc`;R=`echo "($R-60*$M)" | bc`
+      #"   init  : Fri Oct 19 17:14:09 CEST 2018"
+printf "                      \e[32m%2.2d:%2.2d:%2.2d\e[39m\n" $H $M $R
+```
